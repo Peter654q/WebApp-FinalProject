@@ -1,0 +1,15 @@
+html{
+	font-size: 3vh;
+}
+
+body{
+	text-align: center;
+}
+
+img {
+	width: 7vh;
+	height:7vh;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
