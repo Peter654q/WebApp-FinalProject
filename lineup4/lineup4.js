@@ -176,7 +176,6 @@ function setOutput(columnNum){
   if (pos!= -1){
     setDropValue(matrix, pos, columnNum, player1, blank_num);
     str = str+pos+columnNum;
-    document.images[str].src = takeTurns() + ".png";
     if(checkWin(matrix)){
       win_flag = 1;
       if(player1!=1){
@@ -193,9 +192,8 @@ function setOutput(columnNum){
        document.getElementById("result").innerHTML = "Tie!!";
        //alert("Tie!!");
     }
-    return true;
   }
-  return false;
+  document.images[str].src = takeTurns() + ".png";
 }
 
 //on Column Button click
