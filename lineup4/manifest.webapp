@@ -11,5 +11,7 @@
   "developer": {
     "name": "Peter",
     "url": "https://github.com/Peter654q"
-  }
+  },
+  "default_locale": "en",
+  "type": "web"
 }

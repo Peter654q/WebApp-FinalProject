@@ -192,8 +192,8 @@ function setOutput(columnNum){
        document.getElementById("result").innerHTML = "Tie!!";
        //alert("Tie!!");
     }
+    document.images[str].src = takeTurns() + ".png";
   }
-  document.images[str].src = takeTurns() + ".png";
 }
 
 //on Column Button click
